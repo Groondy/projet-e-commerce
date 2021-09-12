@@ -269,7 +269,7 @@ export default {
             justify-content: center;
 
             p {
-              font-size: 22px;
+              font-size: 18px;
             }
           }
 

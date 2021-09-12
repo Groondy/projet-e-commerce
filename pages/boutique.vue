@@ -135,7 +135,7 @@ export default {
         transform: scale(1.02);
       }
 
-      .card-content {
+      &-content {
         width: 100%;
         height: 100%;
         display: flex;
@@ -213,6 +213,24 @@ export default {
       p {
         font-size: 24px;
         font-weight: bold;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .boutique {
+    .products {
+      .card {
+        &-content {
+          .bottom {
+            a {
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+        }
       }
     }
   }

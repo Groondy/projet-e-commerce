@@ -20,6 +20,7 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     overflow-x: hidden;
+    min-height: 100vh;
   }
   
   /* Sections
@@ -36,6 +37,7 @@
     letter-spacing: 0.3em;
     overflow-x: hidden;
     width: 100vw;
+    min-height: 100vh;
   }
   
   /**

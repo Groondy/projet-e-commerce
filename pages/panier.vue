@@ -351,7 +351,7 @@ export default {
           position: relative;
           margin-top: -50px;
           h3 {
-            font-size: 16px;
+            font-size: 14px;
           }
 
           .title-and-price {
