@@ -82,10 +82,11 @@ export default {
         font-size: 56px;
         text-align: center;
         position: absolute;
-        top: 10vh;
+        top: 5vw;
 
         @media screen and (max-width: 600px) {
           font-size: 36px;
+          top: 10vw;
         }
       }
 
