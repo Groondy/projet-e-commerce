@@ -67,6 +67,7 @@ export default {
     justify-content: center;
     height: 100vh;
     min-height: 100vh;
+    min-height: 800px;
     width: 100%;
 
     &-content {
@@ -87,6 +88,11 @@ export default {
         @media screen and (max-width: 600px) {
           font-size: 36px;
           top: 10vw;
+        }
+
+        @media screen and (max-width: 400px) {
+          font-size: 28px;
+          top: 20vw;
         }
       }
 
